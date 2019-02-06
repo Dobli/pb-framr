@@ -1,3 +1,7 @@
+# PB-Framr
+
+A simple web application that constructs a frame and menu using react and material design components. It can be configured using a JSON file and a logo. Goal is to have a landing page for the openhab public building stack.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

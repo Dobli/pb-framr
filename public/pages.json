@@ -1,0 +1,47 @@
+[
+    {
+        "instance": "Bau 1",
+        "entries": [
+            {
+                "title": "openHAB",
+                "url": "http://example.com",
+                "icon": "dashboard"
+            },
+            {
+                "title": "Node-Red",
+                "url": "http://example.com",
+                "icon": "ballot"
+            },
+            {
+                "title": "Sensor Map",
+                "url": "http://example.com",
+                "icon": "map"
+            }
+        ]
+    },
+    {
+        "instance": "Bau 2",
+        "entries": [
+            {
+                "title": "openHAB",
+                "url": "http://example.com",
+                "icon": "dashboard"
+            },
+            {
+                "title": "Node-Red",
+                "url": "http://example.com",
+                "icon": "ballot"
+            },
+            {
+                "title": "Test",
+                "url": "http://example.com",
+                "icon": "code"
+            },
+            {
+                "title": "Sensor Map",
+                "url": "http://example.com",
+                "icon": "map"
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+// Theming
+$mdc-theme-primary: #ff0000;
+$mdc-theme-secondary: #76ff03;
+$mdc-theme-background: #fff;
+
+// Component imports
+@import '@material/react-material-icon/index.scss';
+@import "@material/react-button/index.scss";
+@import '@material/react-drawer/index.scss';
+@import '@material/react-list/index.scss';
+@import '@material/react-top-app-bar/index.scss';
+@import '@material/react-select/index.scss';
+@import '@material/react-menu-surface/index.scss';
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    width: 90%;
+    padding: 10px;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.drawer-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.drawer-app-content {
+    flex: auto;
+    overflow: auto;
+}
+
+.mdc-top-app-bar--fixed-adjust {
+    height: 100%;
+}
+
+.instance-select {
+    width: 100%;
+}

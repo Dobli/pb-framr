@@ -45,7 +45,7 @@ class App extends Component {
             })
     }
 
-    logoImg = <img className="App-logo" src={process.env.PUBLIC_URL + '/logo.svg'} alt="Logo" />;
+    logoImg = <img className="App-logo" src={'logo.svg'} alt="Logo" />;
 
     // Drawer navigation
     navigateToIndex = (index) => {
@@ -79,6 +79,7 @@ class App extends Component {
         return !buildings.length ? ("Loading"):(
             <div className="application">
                 <Helmet>
+                    <base href="/landing/" />
                     <meta charSet="utf-8" />
                     <title>Building Manager</title>
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"  />
